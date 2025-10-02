@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <script src="https://kit.fontawesome.com/c4b82083a2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Paulina Alva Portafolio</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Paulina Alva</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2><span>Soy Paulina Alva</span></h2>
+                <div class="redes">
+                    <a href="https://sethtagg.itch.io/"><i class="fab fa-itch-io fa-2xl"></i></a>
+                    <a href="https://github.com/PGAM-0408"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    <a href="https://www.tiktok.com/@who.is.duck?is_from_webapp=1&sender_device=pc"><i
+                            class="fa-brands fa-tiktok fa-2xl"></i></a>
+                </div>
+                </p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Paulina Alva</span> </h2>
+            <p>Ingeniera en formación en Tecnologías Computacionales y creadora apasionada por los videojuegos, la
+                narrativa interactiva y la ilustración digital.</p>
+
+            <p>Mi trabajo une programación, narrativa e ilustración, buscando experiencias que emocionen, conecten y
+                dejen huella. Me inspiran los mundos que respiran atmósfera, los personajes con lógica interna y los
+                retos técnicos que se transforman en oportunidades para contar algo más profundo.</p>
+
+            <p>He participado en el desarrollo de videojuegos 2D y novelas visuales, con experiencia en Unity, Godot,
+                React, Python, C++, C# y JavaScript. También he colaborado en proyectos tecnológicos aplicados a
+                comunicación en emergencias, herramientas de apoyo y evaluación de IA generativa.</p>
+
+            <p>Además, he explorado la ilustración digital como medio de expresión visual, participando en talleres y
+                contribuyendo con obras para revistas digitales, concursos, fanzines y proyectos colaborativos.
+            </p>
+            <p>Cada proyecto que emprendo es una oportunidad para explorar nuevas formas de interacción, mezclar emoción
+                con tecnología y crear universos donde el jugador y el espectador puedan hacerse preguntas, emocionarse
+                y sentirse dentro de algo vivo.</p>
+
+            <p>
+                Estoy abierta a colaborar en proyectos de videojuegos, narrativa interactiva, ilustración y desarrollo
+                web que busquen combinar técnica y emoción.
+            </p>
+            <a href="./documents/Paulina Alva - 2025.pdf">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code "></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                </ul>
+                <p>Experiencia en diseño e implementacion de frontend, conocimiento basico en React Js</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-python"></i></span>
+                <h4>Lenguajes de Programación</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>JAVASCRIPT</li>
+                </ul>
+                <p>Elaboración de scripts y herramientas para automatización de tareas y análisis de datos.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-unity"></i></span>
+                <h4>Motores de Videojuegos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>C#</li>
+                    <li>GDScript</li>
+                </ul>
+                <p>Desarrollo de videojuegos 2D con implementacion de audio, arte, diseño de UI y programacion</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-square-pen"></i></span>
+                <h4>Ilustracion</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Skechbook</li>
+                    <li>Piskel</li>
+                </ul>
+                <p>Experiencia en ilustración digital, con un enfoque en la creación de personajes y entornos.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-camera"></i></span>
+                <h4>Edicion</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Canva</li>
+                    <li>CapCut</li>
+                </ul>
+                <p>Elaboracion de material audiovisual para redes sociales y presentaciones.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.jpg" alt="">
+                <div class="info">
+                    <h4>Ilustracion participante en la revista digital ENCOLPIUM #9</h4>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Ilustracion participante en la revista digital ENCOLPIUM #10</h4>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Ilustracion participante en el concurso Vibrart 2023</h4>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4>Ilustracion participante en el concurso Dignificarte 2023</h4>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto9.jpg" alt="">
+                <div class="info">
+                    <h4>Ilustracion participante Fanzin sobre dia de muertos 2023</h4>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto10.jpg" alt="">
+                <div class="info">
+                    <h4>Ilustracion sobre cuento de terror para fanzine dia de muertos 2023</h4>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto7.jpg" alt="">
+                <div class="info">
+                    <h4>Ilustracion participante en la escenografia de dia de muertos 2022</h4>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4>Ilustracion para presentacion sobre la cultura griega</h4>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto11.jpg" alt="">
+                <div class="info">
+                    <h4>Ilustracion para el fanzine de consejos tipicos sobre la depresion</h4>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.gif" alt="">
+                <div class="info">
+                    <h4>Ilustracion participante en rotoscopia</h4>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto8.gif" alt="">
+                <div class="info">
+                    <h4>Prueba de animacion en piskelapp</h4>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto12.jpg" alt="">
+                <div class="info">
+                    <h4>Practica de coloreado</h4>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
