@@ -39,7 +39,7 @@
 
         #inicio .contenido header .contenido-header h1 {
             text-align: center;
-            color: #d1c408;
+            color: #ff7b00;
         }
 
         #inicio .contenido header .contenido-header nav ul {
@@ -57,7 +57,7 @@
         }
 
         #inicio .contenido header .contenido-header nav ul li a:hover {
-            color: #d1c408;
+            color: #ff7b00;
         }
 
         #inicio .redes a {
