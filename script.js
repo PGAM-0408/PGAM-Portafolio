@@ -40,18 +40,22 @@ function moverCarrusel(direccion) {
   carrusel.style.transform = `translateX(-${indice * (100 / visible)}%)`;
 }
 
-// CARRUSEL DE PROYECTOS FRONTEND
 let indiceFront = 0;
 function moverCarruselFront(direccion) {
   const carruselFront = document.querySelector(".carrusel-track");
   const proyectosFront = carruselFront.querySelectorAll(".proyecto-front");
+
+  // detecta cuántas caben en pantalla
   const visibleFront = window.innerWidth <= 600 ? 1 : (window.innerWidth <= 992 ? 2 : 3);
   const totalFront = proyectosFront.length;
 
-  // calcular pasos
+  // mover de 1 en 1
   indiceFront += direccion;
   if (indiceFront < 0) indiceFront = 0;
   if (indiceFront > totalFront - visibleFront) indiceFront = totalFront - visibleFront;
 
-  carruselFront.style.transform = `translateX(-${indiceFront * (100 / visibleFront)}%)`;
+  // paso = tamaño de una tarjeta
+  const paso = 100 / visibleFront;
+
+  carruselFront.style.transform = `translateX(-${indiceFront * paso}%)`;
 }
